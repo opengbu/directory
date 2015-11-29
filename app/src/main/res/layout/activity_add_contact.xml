@@ -46,12 +46,12 @@
 
     <Button
         android:id="@+id/save_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="10dp"
+            android:layout_marginTop="10dp"
         android:text="Save"
-        android:textColor="#000" />
+            android:textColor="#000" />
 
     <Button
         android:id="@+id/delete_btn"

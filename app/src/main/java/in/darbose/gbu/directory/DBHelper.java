@@ -15,7 +15,6 @@ public class DBHelper extends SQLiteOpenHelper {
     public static final String KEY_LNAME = "lname";
     public static final String KEY_ID = "id";
     static String DATABASE_NAME = "userdata";
-
     public DBHelper(Context context) {
         super(context, DATABASE_NAME, null, 1);
 
@@ -37,7 +36,6 @@ public class DBHelper extends SQLiteOpenHelper {
 
     /**
      * Inserts User into SQLite DB
-     *
      * @param queryValues
      */
     public void insertUser(HashMap<String, String> queryValues) {
@@ -53,7 +51,6 @@ public class DBHelper extends SQLiteOpenHelper {
 
     /**
      * Get list of Users from SQLite DB as Array List
-     *
      * @return
      */
     public ArrayList<HashMap<String, String>> getAllUsers() {

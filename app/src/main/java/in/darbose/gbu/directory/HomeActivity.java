@@ -281,7 +281,6 @@ public class HomeActivity extends AppCompatActivity {
         Intent objIntent = new Intent(getApplicationContext(), HomeActivity.class);
         startActivity(objIntent);
     }
-
     @Override
     protected void onResume() {
         displayData();

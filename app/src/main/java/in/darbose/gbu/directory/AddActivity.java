@@ -84,10 +84,12 @@ public class AddActivity extends Activity implements OnClickListener {
         }
 
 
+
     }
 
 
     private boolean deleteData() {
+        dataBase = mHelper.getWritableDatabase();
         build = new AlertDialog.Builder(AddActivity.this);
         build.setTitle("Delete " + fname);
         build.setMessage("Do you want to delete ?");
@@ -121,7 +123,6 @@ public class AddActivity extends Activity implements OnClickListener {
 
         return true;
     }
-
     /**
      * save data into SQLite
      */
