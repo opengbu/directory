@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="@dimen/font_size_name" />
+
+
+    <TextView
+        android:id="@+id/textPhone"
+        android:layout_width="305dp"
+        android:layout_height="wrap_content"
+        android:text="Phone"
+        android:textSize="@dimen/font_size_phone"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

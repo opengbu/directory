@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/txt_id"
+        android:layout_width="1dp"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/font_size_hidden"
+        tools:ignore="Suspicious0dp" />/>
+
+
+    <TextView
+        android:id="@+id/txt_fName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/font_size_name" />
+
+    <TextView
+        android:id="@+id/txt_lName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/font_size_phone" />
+
+
+</LinearLayout>
